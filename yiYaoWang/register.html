@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册1药网</title>
+		<meta name="keywords" content="1药网,网上药房,网上药店,网上买药, 合法网上药房" />
+		<link rel="stylesheet"  type="text/css" href="css/public.css" />
+		<link rel="stylesheet"  type="text/css" href="css/other.css" />
+	</head>
+	<body>
+		<div class="r_header wrap">
+			<a href="#" class="logo">
+				<img src="img/yao_logo.png"/>
+			</a>
+		</div>
+		<div class="wrap r_main">
+			<a class="bg_link" id="2014_reg_background_a" target="_blank">&nbsp;</a>
+			<div class="hi_div">
+				<h2>Hi，欢迎注册！</h2>
+				<span>我已经注册，现在就<a href="login.html">登录</a></span>
+			</div>
+			
+			<div class="r_form">
+				<form action="php/register.php" method="post">
+				<!--手机号-->
+				<div class="phonediv">
+					<input type="text" name="phone" maxlength="100" placeholder="手机号" value="" id="phone">
+						<i></i>
+				</div>
+				<!--密码-->
+				<div class="pwddiv">
+					<input type="password" id="pwd" maxlength="100" placeholder="登录密码" name="pwd">
+					<i class="i_true"></i>
+					<i class="i_empty duiHao" style="display: none;"></i>
+					<span class="safe">安全程度&nbsp;<em class="di">弱</em><em class="zhong">中</em><em class="gao">强</em></span>
+				</div>
+				<div class="repwddiv">
+					<input type="password" id="repwd" maxlength="100" placeholder="确认密码" name="repwd">
+					<i class="i_true" style="display: none;">请再次输入登录密码</i>
+					<i class="i_empty " style="display: none;"></i>
+				</div>
+				<div class="checkdiv">
+					<input type="checkbox" name="" value="Car" checked="checked" />&nbsp;
+					<span>我已阅读并同意</span>
+					<a href="#">《1药网服务协议》</a><br>
+					<input type="submit" value="立即注册" name="submit" class="btn" />
+					
+				</div>
+			</form>
+				<div class="topTu">
+					<p>使用合作伙伴账号登录：</p>
+					<a href="#" class="a1"></a>
+					<a href="#" class="a2"></a>
+					<a href="#" class="a3"></a>
+					<a href="#" class="a4"></a>
+					<a href="#" class="a5"></a>
+					<a href="#" class="a6"></a>
+				</div>
+			</div>
+			
+			
+		</div>
+		<p class="footer6">
+			<a href="#">
+				关于1药网 | 互联网药品信息服务资格证 | 互联网药品交易资格证：粤C20100001 | ICP许可证粤B2-20150066
+			</a><br>
+			<a href="#">
+				连锁营业执照 | 药品经营许可证 | 保健食品卫生许可证 | 医疗器械许可证 | 网安备案证 | 食品流通许可证 | GSP证书 | 保健食品经营企业安全示范点
+			</a><br>
+			Copyright © 1药网——广东壹号大药房连锁有限公司 2010-2015，All Rights Reserved
+		</p>
+		
+		
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
+		<script src="js/register.js" ></script>
+		
+	</body>
+</html>
